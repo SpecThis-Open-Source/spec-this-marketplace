@@ -47,6 +47,16 @@ claude plugin marketplace remove specthis
 | --- | --- |
 | [`specthis-planning`](./plugins/specthis-planning) | Guides Claude Code through the full SpecThis plan scaffolding flow. |
 
+## MCP server
+
+This marketplace configures the SpecThis MCP server for compatible plugins:
+
+- Name: `spec-this`
+- Type: `http`
+- URL: `https://app.specthis.ai/api/mcp`
+
+Authentication is handled by the server via Clerk OAuth; no tokens or secrets are required.
+
 ## Contributing
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md). All commits must follow [Conventional Commits](https://www.conventionalcommits.org/) — `semantic-release` reads them to bump versions and cut releases automatically.
