@@ -16,7 +16,7 @@ The skill uses the SpecThis MCP tools, so the plan updates live in the SpecThis 
 
 ## Prerequisites
 
-- The SpecThis MCP server must be configured in your Claude Code setup. Without it, the skill has no tools to call.
+- This plugin declares the SpecThis MCP server (`https://app.specthis.ai/api/mcp`) automatically. No token is required; authentication is handled by the server (Clerk OAuth).
 - The GitHub repository you're planning in must be **linked to your SpecThis project** — creating a plan requires it (SpecThis opens the plan's branch + draft PR there on finalize). The skill auto-detects the `org/repo` from your local git remote; if it isn't linked yet, link it in the SpecThis UI (or via `link_project_repository`) and the skill will guide you.
 
 ## Install
