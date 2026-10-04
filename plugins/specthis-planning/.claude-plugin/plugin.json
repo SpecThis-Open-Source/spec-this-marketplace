@@ -1,6 +1,6 @@
 {
   "name": "specthis-planning",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Guides Claude Code through the full SpecThis plan scaffolding flow — goal, open questions, workflow, acceptance, and work items.",
   "author": {
     "name": "SpecThis",
@@ -14,5 +14,11 @@
     "planning",
     "plan-scaffolding",
     "spec"
-  ]
+  ],
+  "mcpServers": {
+    "spec-this": {
+      "type": "http",
+      "url": "https://app.specthis.ai/api/mcp"
+    }
+  }
 }
